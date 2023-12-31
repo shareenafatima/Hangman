@@ -3,10 +3,10 @@ require 'fileutils'
 class Hangman
   attr_accessor :word, :guessed_letters, :attempts_left
 
-  def initialize(word, guessed_letters = [], attempts_left = 6)
+  def initialize(word, guessed_letters = [], attempts_left = 12)
     @word = word.downcase
     @guessed_letters = guessed_letters.map(&:downcase)
-    @max_attempts = 6
+    @max_attempts = 12
     @attempts_left = attempts_left
   end
 
