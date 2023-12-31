@@ -142,7 +142,5 @@ class HangmanGame
     end
   end
 end
-
-# Example usage
 hangman_game = HangmanGame.new
 hangman_game.play_game
